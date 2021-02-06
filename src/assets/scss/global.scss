@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #f15a24;
+  --text: #222;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+select,
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+
+body {
+  color: var(--text);
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
